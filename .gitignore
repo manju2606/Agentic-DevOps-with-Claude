@@ -1,0 +1,13 @@
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/tfplan
+terraform.tfstate
+terraform.tfstate.backup
+
+# Claude local settings (contains secrets)
+.claude/settings.local.json
+
+# MCP root config (may contain secrets)
+.mcp.json
